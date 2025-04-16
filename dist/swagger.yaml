@@ -35,9 +35,6 @@ paths:
       responses:
         "200":
           description: Webhook data uploaded successfully.
-          content:
-            application/json:
-              schema:
         "400":
           description: Bad Request.
           content:
